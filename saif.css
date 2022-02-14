@@ -1,0 +1,75 @@
+body{
+    font-family: Poppins;
+    
+}
+.container{
+    margin-bottom: 100px;
+}
+
+.product-area{
+    background-image: url(hot-gadgets/bg-1.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.buy-now{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    line-height: 4em;
+}
+.carousel-item h4{
+    line-height: 4em;
+    letter-spacing: 0.5px;
+}
+
+/********carousel*********/
+
+.carousel-indicators button {
+    height: 7px !important;
+    width: 10px !important;
+    border-radius: 50% !important ;
+    background-color: rgba(128, 128, 128, 0.3) !important;
+    margin: 10px 3px !important;
+  }
+  
+  .carousel-indicators .active {
+    height: 10px !important;
+    width: 40px !important;
+    border-radius: 44.5% !important;
+    background-image: linear-gradient(to right, #ff8206, #ffd019) !important;
+  }
+  
+  .carousel-item {
+    padding: 10px 40px 20px;
+  }
+  
+.c1{
+    color: #ffd019;
+    margin-top: 40px;
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 10px #80808080;
+    border-radius: 7px;
+}
+.card-body{
+    text-align: center;
+}
+.card-text{
+    color: gray;
+}
+.underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+    
+}
+/* cat group */
+#bag-cat,#perfume-cat,#shoe-cat{
+    border-radius: 5px 15px 5px 30px;
+}
+  
